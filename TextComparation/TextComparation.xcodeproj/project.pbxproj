@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC85D35720D8AB8E00996EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85D35620D8AB8E00996EA0 /* AppDelegate.swift */; };
+		CC85D35920D8AB8E00996EA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85D35820D8AB8E00996EA0 /* ViewController.swift */; };
+		CC85D35C20D8AB8E00996EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC85D35A20D8AB8E00996EA0 /* Main.storyboard */; };
+		CC85D35E20D8AB9200996EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC85D35D20D8AB9200996EA0 /* Assets.xcassets */; };
+		CC85D36120D8AB9200996EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC85D35F20D8AB9200996EA0 /* LaunchScreen.storyboard */; };
+		CC85D36A20D8B60000996EA0 /* trailer_720p.mov in Resources */ = {isa = PBXBuildFile; fileRef = CC85D36820D8B60000996EA0 /* trailer_720p.mov */; };
+		CC85D36B20D8B60000996EA0 /* trailer_720p.srt in Resources */ = {isa = PBXBuildFile; fileRef = CC85D36920D8B60000996EA0 /* trailer_720p.srt */; };
+		CC85D37820D8CA2700996EA0 /* AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.srt in Resources */ = {isa = PBXBuildFile; fileRef = CC85D37420D8CA2700996EA0 /* AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.srt */; };
+		CC85D37920D8CA2700996EA0 /* AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC85D37520D8CA2700996EA0 /* AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.mp4 */; };
+		CC85D37A20D8CA2700996EA0 /* Deadpool-2-The-Trailer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC85D37620D8CA2700996EA0 /* Deadpool-2-The-Trailer.mp4 */; };
+		CC85D37E20D8CAF800996EA0 /* Deadpool-2-The-Trailer.srt in Resources */ = {isa = PBXBuildFile; fileRef = CC85D37D20D8CAF800996EA0 /* Deadpool-2-The-Trailer.srt */; };
+		CCFE82A720E0D59C00D2210C /* Subtitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFE82A620E0D59C00D2210C /* Subtitles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F85664DAA2E3577E3213AA8 /* Pods_TextComparation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextComparation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC85D35320D8AB8E00996EA0 /* TextComparation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextComparation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC85D35620D8AB8E00996EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC85D35820D8AB8E00996EA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC85D35B20D8AB8E00996EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC85D35D20D8AB9200996EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC85D36020D8AB9200996EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC85D36220D8AB9200996EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC85D36820D8B60000996EA0 /* trailer_720p.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = trailer_720p.mov; sourceTree = "<group>"; };
+		CC85D36920D8B60000996EA0 /* trailer_720p.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trailer_720p.srt; sourceTree = "<group>"; };
+		CC85D37420D8CA2700996EA0 /* AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.srt"; sourceTree = "<group>"; };
+		CC85D37520D8CA2700996EA0 /* AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.mp4"; sourceTree = "<group>"; };
+		CC85D37620D8CA2700996EA0 /* Deadpool-2-The-Trailer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Deadpool-2-The-Trailer.mp4"; sourceTree = "<group>"; };
+		CC85D37D20D8CAF800996EA0 /* Deadpool-2-The-Trailer.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Deadpool-2-The-Trailer.srt"; sourceTree = "<group>"; };
+		CCFE82A620E0D59C00D2210C /* Subtitles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtitles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC85D35020D8AB8E00996EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E4E08400FBFC7C6B14DEF45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F85664DAA2E3577E3213AA8 /* Pods_TextComparation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC85D34A20D8AB8E00996EA0 = {
+			isa = PBXGroup;
+			children = (
+				CC85D35520D8AB8E00996EA0 /* TextComparation */,
+				CC85D35420D8AB8E00996EA0 /* Products */,
+				1E4E08400FBFC7C6B14DEF45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC85D35420D8AB8E00996EA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC85D35320D8AB8E00996EA0 /* TextComparation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC85D35520D8AB8E00996EA0 /* TextComparation */ = {
+			isa = PBXGroup;
+			children = (
+				CCFE82A620E0D59C00D2210C /* Subtitles.swift */,
+				CC85D35620D8AB8E00996EA0 /* AppDelegate.swift */,
+				CC85D35820D8AB8E00996EA0 /* ViewController.swift */,
+				CC85D35A20D8AB8E00996EA0 /* Main.storyboard */,
+				CC85D35D20D8AB9200996EA0 /* Assets.xcassets */,
+				CC85D35F20D8AB9200996EA0 /* LaunchScreen.storyboard */,
+				CC85D36220D8AB9200996EA0 /* Info.plist */,
+				CC85D36C20D8B60700996EA0 /* SampleResource */,
+			);
+			path = TextComparation;
+			sourceTree = "<group>";
+		};
+		CC85D36C20D8B60700996EA0 /* SampleResource */ = {
+			isa = PBXGroup;
+			children = (
+				CC85D37520D8CA2700996EA0 /* AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.mp4 */,
+				CC85D37420D8CA2700996EA0 /* AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.srt */,
+				CC85D37620D8CA2700996EA0 /* Deadpool-2-The-Trailer.mp4 */,
+				CC85D37D20D8CAF800996EA0 /* Deadpool-2-The-Trailer.srt */,
+				CC85D36820D8B60000996EA0 /* trailer_720p.mov */,
+				CC85D36920D8B60000996EA0 /* trailer_720p.srt */,
+			);
+			path = SampleResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC85D35220D8AB8E00996EA0 /* TextComparation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC85D36520D8AB9200996EA0 /* Build configuration list for PBXNativeTarget "TextComparation" */;
+			buildPhases = (
+				CC85D34F20D8AB8E00996EA0 /* Sources */,
+				CC85D35020D8AB8E00996EA0 /* Frameworks */,
+				CC85D35120D8AB8E00996EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextComparation;
+			productName = TextComparation;
+			productReference = CC85D35320D8AB8E00996EA0 /* TextComparation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC85D34B20D8AB8E00996EA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = LongTa;
+				TargetAttributes = {
+					CC85D35220D8AB8E00996EA0 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CC85D34E20D8AB8E00996EA0 /* Build configuration list for PBXProject "TextComparation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC85D34A20D8AB8E00996EA0;
+			productRefGroup = CC85D35420D8AB8E00996EA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC85D35220D8AB8E00996EA0 /* TextComparation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC85D35120D8AB8E00996EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC85D36B20D8B60000996EA0 /* trailer_720p.srt in Resources */,
+				CC85D37920D8CA2700996EA0 /* AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.mp4 in Resources */,
+				CC85D37E20D8CAF800996EA0 /* Deadpool-2-The-Trailer.srt in Resources */,
+				CC85D37A20D8CA2700996EA0 /* Deadpool-2-The-Trailer.mp4 in Resources */,
+				CC85D36120D8AB9200996EA0 /* LaunchScreen.storyboard in Resources */,
+				CC85D35E20D8AB9200996EA0 /* Assets.xcassets in Resources */,
+				CC85D35C20D8AB8E00996EA0 /* Main.storyboard in Resources */,
+				CC85D36A20D8B60000996EA0 /* trailer_720p.mov in Resources */,
+				CC85D37820D8CA2700996EA0 /* AVENGERS-INFINITY-WAR-Trailer-Marvel-2018.srt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC85D34F20D8AB8E00996EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFE82A720E0D59C00D2210C /* Subtitles.swift in Sources */,
+				CC85D35920D8AB8E00996EA0 /* ViewController.swift in Sources */,
+				CC85D35720D8AB8E00996EA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC85D35A20D8AB8E00996EA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC85D35B20D8AB8E00996EA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC85D35F20D8AB9200996EA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC85D36020D8AB9200996EA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC85D36320D8AB9200996EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC85D36420D8AB9200996EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC85D36620D8AB9200996EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL8ZANT567;
+				INFOPLIST_FILE = TextComparation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.TextComparation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC85D36720D8AB9200996EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL8ZANT567;
+				INFOPLIST_FILE = TextComparation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.TextComparation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC85D34E20D8AB8E00996EA0 /* Build configuration list for PBXProject "TextComparation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85D36320D8AB9200996EA0 /* Debug */,
+				CC85D36420D8AB9200996EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC85D36520D8AB9200996EA0 /* Build configuration list for PBXNativeTarget "TextComparation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85D36620D8AB9200996EA0 /* Debug */,
+				CC85D36720D8AB9200996EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC85D34B20D8AB8E00996EA0 /* Project object */;
+}
